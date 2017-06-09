@@ -1,0 +1,89 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">面试助手</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="first_title">试题广泛</string>
+    <string name="first_desc">
+        我们收集了很多名企和500强企业的面试、笔试题，还有专项知识点复习</string>
+    <string name="second_title">充实每一天</string>
+    <string name="second_desc">合理运用每一天</string>
+    <string name="third_title">成为Offer收割机</string>
+    <string name="third_desc">成为Offer收割机</string>
+    <string name="lets_go">Let is Go</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_page">首页</string>
+    <string name="no_login">未登录</string>
+    <string name="settings">设置</string>
+    <string name="course">课程</string>
+    <string name="info">个人信息</string>
+    <string name="self_test">自测</string>
+    <string name="html">前端</string>
+    <string name="java">Java</string>
+    <string name="android">Android</string>
+    <string name="ios">IOS</string>
+    <string name="php">PHP</string>
+    <string name=".net">ASP.Net</string>
+    <string name="search">Search</string>
+    <string name="clear_search">Clear Search</string>
+    <string name="hot">热门</string>
+    <string name="hot_technology">热门技术</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="tip_double_click_exit">双击退出</string>
+    <string name="main_tab_name_review">主页</string>
+    <string name="main_tab_name_test">题库</string>
+    <string name="main_tab_name_setting">信息</string>
+    <string name="main_tab_select">精选</string>
+    <string name="text_motto">不惧来日，莫悲往昔</string>
+
+    <string name="fail_put_to_refresh">网络不太好请重新尝试</string>
+    <string name="loading">加载中</string>
+    <string name="my_fav">收藏的题目</string>
+    <string name="creat_table">建表/插入默认数据</string>
+    <string name="suggest">意见反馈</string>
+    <string name="submit">提交</string>
+    <string name="about">关于</string>
+    <string name="author">Limitless</string>
+    <string name="all_load">已经全部加载完</string>
+    <string name="error_load">加载失败请重试</string>
+    <string name="label_answer">答案：</string>
+    <string name="bt_answer">答案</string>
+    <string name="bt_next">下一题</string>
+    <string name="nong_test">(。﹏。*) \n题库已经没有题目了</string>
+    <string name="reset">再做一遍</string>
+    <string name="dont_no_text">Sorry,不能提交空白信息T_T</string>
+    <string name="thx">非常感谢您的建议，我会做得更好</string>
+    <string name="sugesst_error">信息反馈失败请重试T_T</string>
+    <string name="dont_repeat">您宝贵的意见正在提交中哦，请不要重复提交</string>
+    <string name="bt_hind">隐藏</string>
+    <string name="bt_show">显示</string>
+    <string name="cancel_fav">取消收藏</string>
+    <string name="success_fav">收藏成功</string>
+    <string name="label_author">作者：</string>
+    <string name="label_resource">来源：</string>
+    <string name="version_name">V1.0.0</string>
+    <string name="suggest_qq_or_mail">留下您的QQ或邮箱(选填)</string>
+    <string name="suggest_hind_text">您的建议是我最大的动力</string>
+    <string name="label_other">其他内容</string>
+    <string name="label_cache">缓存设置</string>
+    <string name="label_open_cache">设置缓存有效期</string>
+    <string name="label_cache_text">开启后正文缓存将会在设定的时间内失效</string>
+    <string name="label_suggest">意见反馈</string>
+    <string name="label_update">更新</string>
+    <string name="label_mycenter">我的主页</string>
+    <string name="label_about">关于</string>
+    <string name="no_permissions">应用需要必要的运行权限</string>
+    <string name="help">帮助</string>
+    <string name="string_help_text">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。\n\n最后点击两次后退按钮，即可返回。</string>
+    <string name="quit">退出</string>
+    <string name="no_cache_over_time">缓存有效时间不能为空哦</string>
+    <string name="action_create">执行</string>
+    <string name="update_text">更新日志</string>
+    <string name="luntan">赛码论坛</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="exit_app">退出应用</string>
+
+</resources>

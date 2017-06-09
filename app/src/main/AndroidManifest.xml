@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wxc.review">
+
+    <!-- Bmob权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:name=".base.system.AppContext"
+        android:allowBackup="true"
+        android:icon="@mipmap/launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.activites.AppStartActivity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.activites.MainActivity" />
+        <activity android:name=".ui.activites.ListActivity" />
+        <activity android:name=".ui.activites.DetailActivity" />
+        <activity android:name=".ui.activites.FavActivity" />
+        <activity android:name=".ui.activites.SuggestActivity" />
+        <activity android:name=".ui.activites.AboutActivity" />
+        <activity android:name=".ui.activites.AuthorActivity" />
+        <activity android:name=".ui.activites.PermissionsActivity" />
+        <activity android:name=".ui.activites.SettingCacheActivity" />
+        <activity android:name=".ui.activites.CreateTableActivity" />
+        <activity android:name=".ui.activites.VersionNoteActivity" />
+        <activity android:name=".ui.activites.LoginActivity" />
+        <activity android:name=".ui.activites.RegisterActivity" />
+        <activity
+            android:name=".ui.activites.SettingActivity"
+            android:label="@string/title_activity_setting"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".ui.activites.LunTanActivity" />
+        <activity android:name=".ui.activites.InvitationActivity" />
+        <activity android:name=".ui.activites.MyCenterActivity" />
+        <activity android:name=".ui.activites.FriendsActivity" />
+        <activity android:name=".ui.activites.SendInvitationActivity" />
+        <activity android:name=".ui.activites.MyMessageEditActivity"></activity>
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <data android:scheme="tencent100371282" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <!-- 调用新浪原生SDK，需要注册的回调activity -->
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.sharesdk.demo.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    </application>
+
+</manifest>
